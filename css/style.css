@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src:
-    local("Raleway"),
-    url("../fonts/Poppins-Regular.ttf") format("truetype");
+    local("Raleway"), url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -12,8 +11,7 @@
   font-style: normal;
   font-weight: 500;
   src:
-    local("Raleway"),
-    url("../fonts/Poppins-Medium.ttf") format("truetype");
+    local("Raleway"), url("../fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -21,8 +19,7 @@
   font-style: normal;
   font-weight: 700;
   src:
-    local("Raleway"),
-    url("../fonts/Poppins-Bold.ttf") format("truetype");
+    local("Raleway"), url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -30,8 +27,7 @@
   font-style: normal;
   font-weight: 900;
   src:
-    local("Raleway"),
-    url("../fonts/Poppins-Black.ttf") format("truetype");
+    local("Raleway"), url("../fonts/Poppins-Black.ttf") format("truetype");
 }
 
 :root {
@@ -212,4 +208,28 @@ textarea {
 .comentario__title {
   text-align: left;
   color: var(--primary-color);
+}
+
+/* NUCLEUS */
+.seguridad {
+  padding-block: 8rem;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  background-color: var(--primary-color);
+}
+
+.seguridad__title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.seguridad__grid {
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: dense;
+  gap: 4rem;
+}
+
+.seguridad__img {
+  width: 25rem;
 }

@@ -16,3 +16,12 @@
 .main__grid {
   grid-template-columns: 1fr 1fr;
 }
+
+/* Seguridad */
+.seguridad__grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.seguridad__img {
+  width: 40rem;
+}

@@ -52,7 +52,6 @@
 
 /* MAIN */
 .main__grid {
-  display: grid;
   grid-template-columns: 30rem 1fr;
   align-items: center;
 }
@@ -60,4 +59,20 @@
 .main__app {
   grid-row: unset;
   width: 30rem;
+}
+
+/* NUCLEUS */
+.seguridad {
+  padding-block: 10rem;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.seguridad__grid {
+  grid-template-columns: 1fr 30rem;
+  align-items: center;
+}
+
+.seguridad__img {
+  width: 30rem;
+  grid-column: 2/3;
 }
