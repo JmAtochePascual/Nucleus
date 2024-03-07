@@ -94,3 +94,20 @@
   grid-row: unset;
   width: 30rem;
 }
+
+/* TESTIMONIALES */
+
+.testimoniales__grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial {
+  padding: 4rem;
+}
+
+.testimonial__copy::before {
+  left: 1.2rem;
+  top: 1.2rem;
+  width: 3rem;
+  height: 3rem;
+}

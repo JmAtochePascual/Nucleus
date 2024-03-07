@@ -265,3 +265,46 @@ textarea {
   align-items: center;
   gap: .8rem;
 }
+
+/* TESTIMONIALES */
+.testimoniales {
+  padding-block: 5rem;
+  background-color: var(--primary-color);
+}
+
+.testimoniales__title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.testimoniales__grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.testimonial {
+
+  position: relative;
+  padding: 2rem;
+  background-color: var(--white-color);
+}
+
+.testimonial__copy::before {
+  position: absolute;
+  left: .8rem;
+  top: .8rem;
+  content: " ";
+  width: 1.6rem;
+  height: 1.6rem;
+  display: block;
+  background-image: url("../img/comilla.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimoniales__autor {
+  font: 900 1.4rem/1 var(--primary-Font);
+  color: #5e5e5e;
+}
