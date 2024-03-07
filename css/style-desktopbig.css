@@ -25,3 +25,8 @@
 .seguridad__img {
   width: 40rem;
 }
+
+/* COMISIONES */
+.comisiones__grid {
+  grid-template-columns: 1fr 1fr;
+}

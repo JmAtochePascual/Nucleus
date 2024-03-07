@@ -233,3 +233,35 @@ textarea {
 .seguridad__img {
   width: 25rem;
 }
+
+/* COMISIONES */
+.comisiones {
+  padding-top: 5rem;
+}
+
+.comisiones__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.comisiones__grid {
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: dense;
+  gap: 4rem;
+}
+
+.comisiones__sub-title {
+  font: 900 1.6rem/1 var(--primary-Font);
+}
+
+.comision__app {
+  grid-row: 2/3;
+  width: 25rem;
+}
+
+.comentario--flex {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}

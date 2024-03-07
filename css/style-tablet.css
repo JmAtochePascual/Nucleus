@@ -76,3 +76,21 @@
   width: 30rem;
   grid-column: 2/3;
 }
+
+
+/* COMISIONES */
+.comisiones__grid {
+  grid-template-columns: 1fr 30rem;
+  align-items: center;
+}
+
+.comisiones__sub-title {
+  margin-bottom: 2rem;
+  font: 900 1.6rem/1 var(--primary-Font);
+}
+
+.comision__app {
+  grid-column: 2 /3;
+  grid-row: unset;
+  width: 30rem;
+}
