@@ -27,6 +27,7 @@ Nucleus" es un sitio web que promociona un servicio de pagos móviles seguro y f
 
 - **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla.
 - **img/**: Carpeta con imágenes utilizadas en la página.
+- **fonts/**: Carpeta con las fuentes utilizadas en la página.
 - **index.html**: Página principal del proyecto.
 
 ## 🧑‍💻Uso
