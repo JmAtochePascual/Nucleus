@@ -33,3 +33,83 @@
     local("Raleway"),
     url("../fonts/Poppins-Black.ttf") format("truetype");
 }
+
+:root {
+  /* Fonts */
+  --primary-Font: "Poppins", sans-serif;
+
+  --paragraph: normal 1.4rem/2 var(--primary-Font);
+
+  --titleOne: 900 3.2rem/1.5 var(--primary-Font);
+  --titleTwo: 900 2.8rem/1.5 var(--primary-Font);
+  --titleThree: 900 2.4rem/1.5 var(--primary-Font);
+
+  /* Colors */
+  --primary-color: #6834a6;
+  --white-color: #ffffff;
+  --black-color: #1f1e1e;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 32rem;
+  font: var(--paragraph);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font: var(--titleOne);
+}
+
+h2 {
+  font: var(--titleTwo);
+}
+
+h3 {
+  font: var(--titleThree);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+/* UTILIDADES */
+
+[class$="__container"] {
+  width: min(95%, 144rem);
+  margin: 0 auto;
+}
