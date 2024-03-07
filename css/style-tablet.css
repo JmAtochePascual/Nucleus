@@ -1,0 +1,56 @@
+:root {
+  /* Fonts */
+  --paragraph: normal 1.6rem/2 var(--primary-Font);
+
+  --titleOne: 900 5rem/1 var(--primary-Font);
+  --titleTwo: 900 3.2rem/1.5 var(--primary-Font);
+  --titleThree: 900 2.8rem/1.5 var(--primary-Font);
+
+  /* Colors */
+  --primary-color: #6834a6;
+  --white-color: #ffffff;
+  --black-color: #1f1e1e;
+}
+
+/* HEADER */
+.header {
+  background-size: 70%;
+}
+
+.header__wrapper {
+  padding: 4rem 0 2rem;
+}
+
+.header__barra {
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.navegacion {
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.navegacion__link {
+  color: var(--white-color);
+}
+
+.header__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.header__copy {
+  text-align: left;
+}
+
+.header__title {
+  max-width: 40rem;
+}
+
+.header__app {
+  width: 30rem;
+  justify-self: center;
+}

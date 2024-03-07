@@ -1,0 +1,28 @@
+:root {
+  /* Fonts */
+  --paragraph: normal 1.6rem/2 var(--primary-Font);
+
+  --titleOne: 900 6rem/1 var(--primary-Font);
+  --titleTwo: 900 3.2rem/1.5 var(--primary-Font);
+  --titleThree: 900 2.8rem/1.5 var(--primary-Font);
+
+  /* Colors */
+  --primary-color: #6834a6;
+  --white-color: #ffffff;
+  --black-color: #1f1e1e;
+}
+
+/* HEADER */
+.header {
+  background-size: 60%;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    background-size: 45%;
+  }
+}
+
+.header__title {
+  max-width: 50rem;
+}

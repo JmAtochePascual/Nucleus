@@ -40,7 +40,7 @@
 
   --paragraph: normal 1.4rem/2 var(--primary-Font);
 
-  --titleOne: 900 3.2rem/1.5 var(--primary-Font);
+  --titleOne: 900 3.2rem/1 var(--primary-Font);
   --titleTwo: 900 2.8rem/1.5 var(--primary-Font);
   --titleThree: 900 2.4rem/1.5 var(--primary-Font);
 
@@ -95,6 +95,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -112,4 +113,63 @@ textarea {
 [class$="__container"] {
   width: min(95%, 144rem);
   margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  background-image: url("../img/header_bg.svg");
+  background-size: 40%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.header__wrapper {
+  padding-block: 5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.header__barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header__logo {
+  width: 10rem;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header__copy {
+  text-align: center;
+}
+
+.header__title {
+  max-width: 50rem;
+}
+
+.header__btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.header__app {
+  width: 25rem;
 }
