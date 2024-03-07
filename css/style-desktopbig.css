@@ -1,0 +1,18 @@
+:root {
+  /* Fonts */
+  --titleOne: 900 8rem/1 var(--primary-Font);
+}
+
+/* HEADER */
+.header {
+  background-size: 50%;
+}
+
+.header__title {
+  max-width: 60rem;
+}
+
+/* MAIN */
+.main__grid {
+  grid-template-columns: 1fr 1fr;
+}
