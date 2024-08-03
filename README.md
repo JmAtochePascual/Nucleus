@@ -60,6 +60,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto](https://jmatochepacual.github.io/Nucleus/)
+[ver Proyecto](https://jmatochepascual.github.io/Nucleus/)
 
 © 2024 Nucleus. Todos los derechos reservados.
