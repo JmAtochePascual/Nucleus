@@ -4,44 +4,44 @@ Este proyecto es un sitio web llamado "Nucleus" que promueve un servicio de pago
 
 ## 🎯Contenido
 
-1. 📝[Descripción](#📝descripción)
-2. 🛠️[Tecnologías y Herramientas](#🛠️tecnologías-y-herramientas)
-3. 🚀[Estructura del Proyecto](#🚀estructura-del-proyecto)
-4. 🧑‍💻[Uso](#🧑‍💻uso)
-5. 📌[Instalación](#📌instalación)
-6. 🏗️[Contribución](#🏗️contribución)
-7. ✨[Licencia](#✨licencia)
-8. 🙈[Imagen de Referencia](#🙈imagen-de-rereferencia)
-9. 🌐[Ver Proyecto en la WEB](#🌐ver-proyecto-en-la-web)
+1. 📝[Descripción](#descripción)
+2. 🛠️[Tecnologías y Herramientas](#tecnologías-y-herramientas)
+3. 🚀[Estructura del Proyecto](#estructura-del-proyecto)
+4. 🧑‍💻[Uso](#uso)
+5. 📌[Instalación](#instalación)
+6. 🏗️[Contribución](#contribución)
+7. ✨[Licencia](#licencia)
+8. 🙈[Imagen de Referencia](#imagen-de-rereferencia)
+9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
 
-## 📝Descripción
+## Descripción
 
 Nucleus" es un sitio web que promociona un servicio de pagos móviles seguro y fácil de usar. Ofrece información sobre características, seguridad y comisiones, junto con testimonios de usuarios.
 
-## 🛠️Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
 - **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
 
-## 🚀Estructura del Proyecto
+## Estructura del Proyecto
 
 - **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla.
 - **img/**: Carpeta con imágenes utilizadas en la página.
 - **fonts/**: Carpeta con las fuentes utilizadas en la página.
 - **index.html**: Página principal del proyecto.
 
-## 🧑‍💻Uso
+## Uso
 
 Para empezar, simplemente abre el archivo `index.html` en tu navegador web preferido y explora las diferentes secciones de Nucleus.
 
 ¡Nucleus: Simplificando tus pagos móviles.!
 
-## 📌Instalación
+## Instalación
 
 No se requiere instalación adicional para utilizar este proyecto.
 
-## 🏗️Contribución
+## Contribución
 
 Si deseas contribuir al proyecto, sigue estos pasos:
 
@@ -51,15 +51,15 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 4. Sube la rama (`git push origin feature-name`).
 5. Abre un Pull Request.
 
-## ✨Licencia
+## Licencia
 
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-## 🙈Imagen de Rereferencia
+## Imagen de Rereferencia
 
 ![](https://i.postimg.cc/Dw8ZW11K/nucleus.png)
 
-## 🌐Ver Proyecto en la WEB
+## Ver Proyecto en la WEB
 
 [ver Proyecto](https://jmatochepascual.github.io/Nucleus/)
 
