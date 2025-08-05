@@ -4,34 +4,34 @@ Nucleus es una innovadora plataforma de pagos móviles diseñada para transforma
 
 ## Caracteristicas
 
-- **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio usando media queries.
-- **BEM**: Metodología de nomenclatura de clases CSS para un código más mantenible.
-- **Optimización SEO**: Implementación de metadatos y buenas prácticas para motores de búsqueda.
-- **Favicon**: Conjunto completo de iconos para diferentes dispositivos y plataformas.
+- Diseño adaptable para dispositivos móviles y de escritorio usando media queries.
+- Metodología de nomenclatura de clases CSS para un código más mantenible.
+- Implementación de metadatos y buenas prácticas para motores de búsqueda.
+- Conjunto completo de iconos para diferentes dispositivos y plataformas.
 
 ## Tecnologías
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-- **HTML5**: Lenguaje de marcado para la estructura de la página.
-- **CSS3**: Estilos para el diseño y presentación.
+- **HTML:** Lenguaje de marcado para estructurar el contenido de la página.
+- **CSS:** Lenguaje de estilos utilizado para definir la presentación visual y el diseño responsivo.
+- **JavaScript:** Lenguaje de programación que permite agregar interactividad y dinamismo.
 
-## Estructura del Proyecto
+## Estructura del proyecto
 
-- **css/**: Carpeta que contiene archivos CSS.
-  - **style.css:** Estilos globales
-  - **style-tablet.css:** Estilos para la versión tablet
-  - **style-desktop.css:** Estilos para la versión desktop
-- **img/**: Carpeta de recursos multimedia.
-- **favicon/**: Carpeta con los diferentes tamaños de favicon para distintos dispositivos.
-- **index.html**: Archivo principal que contiene la estructura HTML del sitio web.
-
-## Instlaciones
-
-> No se requiere instalación adicional para utilizar este proyecto.
+- **src:** Directorio que contiene el código fuente del proyecto.
+  - **css:** Directorio que contiene los archivos de estilos.
+  - **img:** Directorio que contiene las imágenes del proyecto.
+  - **favicon:** Directorio que contiene los archivos del favicon.
+  - **fonts:** Directorio que contiene los archivos de fuentes.
+- **index.html:** Archivo principal que contiene el código HTML del proyecto.
+- **README.md:** Archivo que contiene la documentación del proyecto.
 
 ## Uso
+
+> Nota: No requiere instalación de dependencias. Solo abra el archivo `index.html` en un navegador.
 
 Para visualizar el proyecto localmente, sigue estos pasos:
 
@@ -48,8 +48,6 @@ cd Nucleus
 ```
 
 3. Abre el archivo `index.html` en tu navegador web preferido
-
-4. Opcionalmente, puedes usar un servidor local como Live Server para una mejor experiencia
 
 ## Contribución
 
@@ -75,4 +73,4 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
 Este proyecto se encuentra disponible bajo la licencia MIT. Puedes consultar los términos completos [aquí](https://opensource.org/licenses/MIT).
 
-Desarrollado con 💚 por JMCode | © 2025 - Transformando ideas en soluciones digitales
+<p align="center" style="margin-top: 120px;">Desarrollado con 🤍 por JMCode | Transformando ideas en soluciones digitales</p>
