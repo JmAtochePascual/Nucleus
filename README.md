@@ -26,6 +26,7 @@ Nucleus es una innovadora plataforma de pagos móviles diseñada para transforma
   - **img:** Directorio que contiene las imágenes del proyecto.
   - **favicon:** Directorio que contiene los archivos del favicon.
   - **fonts:** Directorio que contiene los archivos de fuentes.
+  - **js:** Directorio que contiene los archivos de JavaScript.
 - **index.html:** Archivo principal que contiene el código HTML del proyecto.
 - **README.md:** Archivo que contiene la documentación del proyecto.
 
