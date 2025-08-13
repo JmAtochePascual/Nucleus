@@ -19,6 +19,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
   <!-- metas -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,20 +29,26 @@
   <meta name="robots" content="index, follow">
   <meta property="og:image" content="https://jmatochepascual.github.io/Nucleus/src/img/Nucleus-tag.png">
   <meta property="og:url" content="https://jmatochepacual.github.io/Nucleus">
+
   <!-- CSS -->
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" media="screen and (min-width: 768px)" href="./src/css/style-tablet.css">
   <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./src/css/style-desktop.css">
   <link rel="stylesheet" media="screen and (min-width: 1440px)" href="./src/css/style-desktopbig.css">
+
+  <!-- JS -->
+  <script src="./src/js/app.js" defer></script>
+
   <title>Nucleus</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header section-animate">
     <div class="header__container">
       <div class="header__wrapper">
         <div class="header__barra">
-          <img src="./src/img/logo.svg" class="header__logo" alt="Nucleus" width="150" height="150">
+          <img src="./src/img/logo.svg" class="header__logo" alt="Nucleus" width="150" height="150"
+            data-animation="animate">
 
           <nav class="navegacion">
             <a href="#" class="navegacion__link">¿Qué es?</a>
@@ -57,59 +64,62 @@
             <a href="#" class="header__btn">Obtener Cuenta</a>
           </div>
 
-          <img src="./src/img/app_1.svg" class="header__app" alt="imagen de celuñar" width="250" height="auto">
+          <img src="./src/img/app_1.svg" class="header__app" alt="imagen de celuñar" width="250" height="auto"
+            data-animation="animate">
         </div>
       </div>
     </div>
   </header>
 
   <main class="main">
-    <div class="main__container">
+    <section class="main__container section-animate">
       <h2 class="main__title">¿Qué es?</h2>
       <div class="main__grid">
-        <img src="./src/img/app_2.svg" class="main__app" alt="imagen app" width="250" height="auto">
+        <img src="./src/img/app_2.svg" class="main__app" alt="imagen app" width="250" height="auto"
+          data-animation="animate">
 
         <div class="comentarios">
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">Fácil</h3>
             <p class="comentario__copy">Crea una cuenta, envía tu documentación y comienza a utilizar nucleus en un par
               de horas.</p>
           </div>
 
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">Seguro</h3>
             <p class="comentario__copy">Por su tecnología digital nucles es imposible de hackear o robar.</p>
           </div>
 
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">Administrable</h3>
             <p class="comentario__copy">Añade o transfiere dinero a tu banco, añade limites o controla gastos.</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
 
-  <section class="seguridad">
+  <section class="seguridad section-animate">
     <div class="seguridad__container">
       <h2 class="seguridad__title">Nucleus es Seguro</h2>
 
       <div class="seguridad__grid">
 
-        <img src="./src/img/seguridad.png" class="seguridad__img" alt="imagen seguridad" width="250" height="auto">
+        <img src="./src/img/seguridad.png" class="seguridad__img" alt="imagen seguridad" width="250" height="auto"
+          data-animation="animate">
 
         <div class="comentarios">
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">100%</h3>
             <p class="comentario__copy">Nucleus es seguro e imposible de clonar.</p>
           </div>
 
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">Desbloqueo</h3>
             <p class="comentario__copy">Utiliza tu cara o dedo para confirmar un deposito o registrar una cuenta.</p>
           </div>
 
-          <div class="comentario">
+          <div class="comentario" data-animation="animate">
             <h3 class="comentario__title">Tarjeta</h3>
             <p class="comentario__copy">Paga en un establecimiento con una tarjeta de crédito que se desactiva una vez
               que hagas hecho una compra.</p>
@@ -119,23 +129,24 @@
     </div>
   </section>
 
-  <section class="comisiones">
+  <section class="comisiones section-animate">
     <div class="comisiones__container">
       <h2 class="comisiones__title">Comisiones</h2>
       <div class="comisiones__grid">
 
-        <img src="./src/img/app_3.svg" class="comision__app" alt="imagen app" width="250" height="auto">
+        <img src="./src/img/app_3.svg" class="comision__app" alt="imagen app" width="250" height="auto"
+          data-animation="animate">
 
         <div class="comentarios">
 
           <p class="comisiones__sub-title">Miestras más veces utilices nucleus, menos pagas:</p>
 
-          <div class="comentario comentario--flex">
+          <div class="comentario comentario--flex" data-animation="animate">
             <h3 class="comentario__title">3%</h3>
             <p class="comentario__copy">De todas tus transacciones di tus movimientos son menores a $999 USD.</p>
           </div>
 
-          <div class="comentario comentario--flex">
+          <div class="comentario comentario--flex" data-animation="animate">
             <h3 class="comentario__title">2.5%</h3>
             <p class="comentario__copy">De todas tus transacciones di tus movimientos son mayores a $999 USD.</p>
           </div>
@@ -144,37 +155,37 @@
     </div>
   </section>
 
-  <section class="testimoniales">
+  <section class="testimoniales section-animate">
     <div class="testimoniales__container">
       <h2 class="testimoniales__title">Testimoniales</h2>
 
       <div class="testimoniales__grid">
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-animation="animate">
           <p class="testimonial__copy">Excelente app, muy sencillo de manejar y enviar dinero</p>
           <p class="testimoniales__autor">- JeanCarlos</p>
         </div>
